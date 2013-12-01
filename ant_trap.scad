@@ -34,9 +34,9 @@ cross_bar_thickness = thick_wall_thickness + (zip_tie_cutter_w / 2.0) + zip_tie_
 
 //make_base();
 
-make_for_design();
+//make_for_design();
 
-//make_for_printing();
+make_for_printing();
 
 module make_for_design() {
 	difference() {
